@@ -1,0 +1,60 @@
+name: market_tech
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.6
+  conditional_builder_null_safety: ^0.0.6
+  hexcolor: ^2.0.7
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  smooth_page_indicator: ^1.0.0+2
+  fluttertoast: ^8.0.9
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
